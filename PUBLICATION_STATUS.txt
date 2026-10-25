@@ -1,0 +1,3 @@
+仓库发布范围：本研究计算代码、参数、输入哈希与核验记录。
+仓库地址：https://github.com/Liujiaxin-boop-png/beijing-greenbelt-ecological-resilience-2020
+未公开包含完整输入数据及边界派生上下文；完整本地复算已经完成。

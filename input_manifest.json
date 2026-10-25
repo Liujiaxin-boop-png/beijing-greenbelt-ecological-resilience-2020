@@ -1,0 +1,147 @@
+{
+  "status": "LOCAL_AUTHOR_REPRODUCTION_INPUTS_PRESENT",
+  "inputs": [
+    {
+      "file": "src/core.py",
+      "sha256": "863d77e3747e2dee59611495c1ddf5e75b6c5d303589f99d7772db674d6215ea",
+      "bytes": 5272,
+      "role": "Study source code or explicit model parameters",
+      "redistribution_status": "Author review required before choosing a code licence; referenced methods attributed in documentation."
+    },
+    {
+      "file": "parameters/analysis_crs.wkt",
+      "sha256": "e4ac5aad99e1f6330e5db7eb83830b58b5cee4c7364aa64db633c97296cc5502",
+      "bytes": 574,
+      "role": "Study source code or explicit model parameters",
+      "redistribution_status": "Author review required before choosing a code licence; referenced methods attributed in documentation."
+    },
+    {
+      "file": "parameters/habitat_and_sensitivity.csv",
+      "sha256": "50c7ea8dcc3f1e86c7cd7da55c093f01bc0e25c122c878d02e64e7b23cbbcb07",
+      "bytes": 272,
+      "role": "Study source code or explicit model parameters",
+      "redistribution_status": "Author review required before choosing a code licence; referenced methods attributed in documentation."
+    },
+    {
+      "file": "parameters/recovery_coefficients.csv",
+      "sha256": "5557deb0014e4b2bc191a78da3981ff43889cc6e297bdafbba4acc354c57cd68",
+      "bytes": 335,
+      "role": "Study source code or explicit model parameters",
+      "redistribution_status": "Author review required before choosing a code licence; referenced methods attributed in documentation."
+    },
+    {
+      "file": "parameters/threats.csv",
+      "sha256": "08ad0b38eda797e15b26c25eba5777602aa3a4a755141cf8413319b0da18f5e2",
+      "bytes": 108,
+      "role": "Study source code or explicit model parameters",
+      "redistribution_status": "Author review required before choosing a code licence; referenced methods attributed in documentation."
+    },
+    {
+      "file": "data/inputs/lulc_2020.tif",
+      "sha256": "a4a8b5f3dcdd123d187393edda2e61e4203334a48c327650d28f5c85b1cc8a4e",
+      "bytes": 1305639,
+      "role": "Actual already-aligned 2020 input raster used by the study",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY: confirm original CLCD/OSM and derived-mask terms before public redistribution; no ownership is asserted."
+    },
+    {
+      "file": "data/inputs/built_2020.tif",
+      "sha256": "864e060d62d537e0f3933084ac5e03989e6fe4c8ac8e2b7fceb1f3c515461c3d",
+      "bytes": 913707,
+      "role": "Actual already-aligned 2020 input raster used by the study",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY: confirm original CLCD/OSM and derived-mask terms before public redistribution; no ownership is asserted."
+    },
+    {
+      "file": "data/inputs/road_major_2020.tif",
+      "sha256": "4a65bd661a70ab237f337369d3ac972cb2fb5a8f8343753ad758f194415adad5",
+      "bytes": 208516,
+      "role": "Actual already-aligned 2020 input raster used by the study",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY: confirm original CLCD/OSM and derived-mask terms before public redistribution; no ownership is asserted."
+    },
+    {
+      "file": "data/inputs/valid_analysis_mid_2020.tif",
+      "sha256": "0af0a8e856ab1fa3750310c676afae371548a30268c096809a678e8a20aea4a5",
+      "bytes": 34492,
+      "role": "Actual already-aligned 2020 input raster used by the study",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY: confirm original CLCD/OSM and derived-mask terms before public redistribution; no ownership is asserted."
+    },
+    {
+      "file": "data/inputs/valid_analysis_low_2020.tif",
+      "sha256": "d79d41ab137d006e80438f794a59421a835c89f74acee49fb0a844bacf3594a1",
+      "bytes": 36879,
+      "role": "Actual already-aligned 2020 input raster used by the study",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY: confirm original CLCD/OSM and derived-mask terms before public redistribution; no ownership is asserted."
+    },
+    {
+      "file": "data/inputs/valid_analysis_high_2020.tif",
+      "sha256": "4388bd9e4285e15cb27a5fb80e1cc37534ca1864a78e0c51bcbfd3dc25af0545",
+      "bytes": 32620,
+      "role": "Actual already-aligned 2020 input raster used by the study",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY: confirm original CLCD/OSM and derived-mask terms before public redistribution; no ownership is asserted."
+    },
+    {
+      "file": "data/inputs/worldcover_2020_mode30m.tif",
+      "sha256": "e4a5e146f80bb90ae9677ed3692b9083f92fe609b061e57930d69b1d9048bf63",
+      "bytes": 1364996,
+      "role": "Actual modal 30 m WorldCover receiver scenario",
+      "redistribution_status": "ESA WorldCover derived categorical input; preserve original attribution/licence. Local copy; review redistribution terms."
+    },
+    {
+      "file": "data/reference/archived_components_all_scenarios_scales.csv",
+      "sha256": "451eb3c19f04e5ddd611fd4f1f2b4fe126b55227c96f7a1c9905c915ed221ed3",
+      "bytes": 28120017,
+      "role": "Frozen historical numerical comparison; never used as a calculation input",
+      "redistribution_status": "Author-produced numerical reference; includes geometry-derived area weights, public redistribution not confirmed."
+    },
+    {
+      "file": "data/context/grid_township_intersection_areas.csv",
+      "sha256": "8df98ecc9709a14d679829c50125e2312d65a55d977732d38eeac464e85dcd4f",
+      "bytes": 202316,
+      "role": "Exact precomputed 1 km grid/town intersection areas, no township polygon file",
+      "redistribution_status": "Derived from author-provided boundaries; local author use, public boundary permission not confirmed."
+    },
+    {
+      "file": "data/context/grid_quadrant_intersection_areas.csv",
+      "sha256": "24247fe46539e4f499d80bdc39a339d915118d398749dace1036b37bd1b4e9b6",
+      "bytes": 74265,
+      "role": "Exact precomputed main 1 km grid/quadrant intersection areas",
+      "redistribution_status": "Derived from author-provided boundaries; local author use, public boundary permission not confirmed."
+    },
+    {
+      "file": "data/reference/township_four_models_reference_35.csv",
+      "sha256": "b685e2e22a9042d6299fd6a28da22616d13c04b910286eac1bebe9f8b44e7790",
+      "bytes": 5037,
+      "role": "Historical 35-town comparison of CLCD/WC by arithmetic/geometric",
+      "redistribution_status": "Author-produced numerical reference, local author use."
+    },
+    {
+      "file": "data/reference/quadrant_four_models_reference.csv",
+      "sha256": "82481096966894b2920c3d8a69ed6cc1da802b81d55e77d779313a64501a8bd9",
+      "bytes": 554,
+      "role": "Historical four-quadrant comparison",
+      "redistribution_status": "Author-produced numerical reference, local author use."
+    },
+    {
+      "file": "data/reference/township_diagnostics_reference_35.csv",
+      "sha256": "5cb03602c80fd75a2f158e1e3c6588eb1993cb651ed8780489a4c7c9284698b7",
+      "bytes": 8944,
+      "role": "Historical main, CRITIC and omission arithmetic diagnostics",
+      "redistribution_status": "Author-produced numerical reference, local author use."
+    },
+    {
+      "file": "data/context/grid_bounds_all_scales.csv",
+      "sha256": "aa8424ac6fee4c280f0c0c9e5bcb2c21f3a00bf076689c1373f28d68ec2a0972",
+      "bytes": 1066925,
+      "role": "Full-square grid coordinates and exact reporting-area intersections for all 3 scales; not raw boundary polygons",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY; derived-context public permission not confirmed."
+    },
+    {
+      "file": "data/context/town_native_centers_2020.tif",
+      "sha256": "3fb5f374a1a225352c2e9820948545f51a8f54e2d9e146ef9bf4f4e2b1a62438",
+      "bytes": 58687,
+      "role": "Study-union native pixel-center mask used solely to reproduce k=half max main D; derived local context, not a certified legal boundary",
+      "redistribution_status": "LOCAL_AUTHOR_REPRODUCTION_COPY; boundary-derived public permission not confirmed."
+    }
+  ],
+  "raw_boundary_polygon_files_included": false,
+  "public_redistribution_permission_confirmed": false
+}

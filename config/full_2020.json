@@ -1,0 +1,71 @@
+{
+  "inputs": {
+    "lulc": "data/inputs/lulc_2020.tif",
+    "built": "data/inputs/built_2020.tif",
+    "road": "data/inputs/road_major_2020.tif",
+    "safe_support": "data/inputs/valid_analysis_mid_2020.tif"
+  },
+  "analysis_crs_wkt": "parameters/analysis_crs.wkt",
+  "expected_raster_affine": [
+    30,
+    0,
+    896665.2169543286,
+    0,
+    -30,
+    4407871.5596752735
+  ],
+  "grid_bounds": "data/context/grid_bounds_all_scales.csv",
+  "intersections": "data/context/grid_township_intersection_areas.csv",
+  "sensitivity": "parameters/habitat_and_sensitivity.csv",
+  "coefficients": "parameters/recovery_coefficients.csv",
+  "output_dir": "outputs/full_recomputed",
+  "hq": {
+    "k": 0.39925000071525574,
+    "z": 2.5,
+    "pixel_size_m": 30,
+    "threat_distance_m": {
+      "built": 10000,
+      "road": 3000
+    },
+    "raw_weights": {
+      "built": 1,
+      "road": 1
+    }
+  },
+  "grid": {
+    "scale_m": 1000,
+    "origin_xy": [
+      920000,
+      4308000
+    ],
+    "bluegreen_classes": [
+      2,
+      3,
+      4,
+      5,
+      9
+    ],
+    "adjacency": 8
+  },
+  "main_aggregation": "equal_weight_arithmetic",
+  "comparison_aggregation": "equal_weight_geometric",
+  "quadrant_intersections": "data/context/grid_quadrant_intersection_areas.csv",
+  "worldcover": "data/inputs/worldcover_2020_mode30m.tif",
+  "k_reference_mask": "data/context/town_native_centers_2020.tif",
+  "scales_m": [
+    500,
+    1000,
+    2000
+  ],
+  "distance_multipliers": {
+    "mid": 1.0,
+    "low": 0.5,
+    "high": 1.5
+  },
+  "safe_support_by_distance": {
+    "mid": "data/inputs/valid_analysis_mid_2020.tif",
+    "low": "data/inputs/valid_analysis_low_2020.tif",
+    "high": "data/inputs/valid_analysis_high_2020.tif"
+  },
+  "prepared_input_boundary": "Starts at the actual aligned classified/threat rasters and stored full-square/area-weight context. Does not recreate raw product downloads, raster reprojection or source boundary digitization."
+}

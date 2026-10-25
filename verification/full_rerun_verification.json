@@ -1,0 +1,208 @@
+{
+  "status": "PASS_ACTUAL_RASTER_RERUN_MATCHES_ARCHIVED_NUMERICS",
+  "prepared_raster_rerun": true,
+  "scenario_grid_rows_checked": 80004,
+  "individual_grid_values_checked": 720036,
+  "grid_max_absolute_errors": {
+    "R": 0.0,
+    "Re": 0.0,
+    "A": 0.0,
+    "A4": 0.0,
+    "ER_arithmetic": 2.220446049250313e-16,
+    "ER_geometric": 0.0,
+    "ER_adjacency4": 0.0,
+    "HQ_known_fraction": 0.0,
+    "Re_known_fraction": 0.0
+  },
+  "grid_missingness_disagreements": {
+    "R": 0,
+    "Re": 0,
+    "A": 0,
+    "A4": 0,
+    "ER_arithmetic": 0,
+    "ER_geometric": 0,
+    "ER_adjacency4": 0,
+    "HQ_known_fraction": 0,
+    "Re_known_fraction": 0
+  },
+  "township_count": 35,
+  "town_four_model_max_absolute_errors": {
+    "CLCD_arithmetic_area_weighted_mean": 3.3306690738754696e-16,
+    "CLCD_geometric_area_weighted_mean": 3.3306690738754696e-16,
+    "WC_arithmetic_area_weighted_mean": 5.551115123125783e-16,
+    "WC_geometric_area_weighted_mean": 6.106226635438361e-16
+  },
+  "town_four_model_ranking_disagreements": [],
+  "town_main_and_diagnostic_max_absolute_errors": {
+    "R": 2.220446049250313e-16,
+    "Re": 5.551115123125783e-16,
+    "A": 6.661338147750939e-16,
+    "ER_arithmetic": 3.3306690738754696e-16,
+    "ER_geometric": 3.3306690738754696e-16,
+    "ER_CRITIC_arithmetic_diagnostic": 4.440892098500626e-16,
+    "ER_arith_omit_R": 3.3306690738754696e-16,
+    "ER_arith_omit_Re": 3.3306690738754696e-16,
+    "ER_arith_omit_A": 3.885780586188048e-16,
+    "area_km2": 7.105427357601002e-14
+  },
+  "quadrant_four_model_max_absolute_errors": {
+    "CLCD_arithmetic_area_weighted_mean": 2.7755575615628914e-16,
+    "CLCD_geometric_area_weighted_mean": 1.6653345369377348e-16,
+    "WC_arithmetic_area_weighted_mean": 5.551115123125783e-16,
+    "WC_geometric_area_weighted_mean": 4.996003610813204e-16
+  },
+  "raster_count_checked": 27,
+  "raster_checks": [
+    {
+      "file": "outputs/full_recomputed/rasters/D_CLCD_mid.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "56bcd059779a53566cdd641174bd20418a5f65d378722bbd9b62f826706e5480"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/HQ_CLCD_mid.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "1df1ce60732a25fc1019dfe58f3220455c15fee7f6cffc2c6939822029dd4547"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/D_WC_receiver_mid.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "01e2bcb87bcd42fc6bb91d30f1647c42ffd4270557c6f660168b8931d6be15a2"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/HQ_WC_receiver_mid.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "3a12731ad01cd2ace74e1f550bfdc8b603c1ee03a3c4c779b6f8ece7e3bd37a0"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/D_CLCD_low.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "2e728ba2d2dde31fd6553293185dd9c81991c7249e4cfdfea7aa2f52c940b5c7"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/HQ_CLCD_low.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "7299cfefdc25b71ca4869356f7638a8017ef7452c6209685059d6dbcee94ca35"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/D_WC_receiver_low.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "0d9521f3e669afb2be2d324a32276f3f9260695724d1e17ebb75a886cf4ece99"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/HQ_WC_receiver_low.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "a819b8daf90f5c52406d990f4c80eeca83bdd9195ea78f9857c693dcb61ac128"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/D_CLCD_high.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "1253952fa37144640db632c3f203cccb2d0d8763e8666568d67948654b4f2e7f"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/HQ_CLCD_high.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "e72f4c881dbd172e4ba78bae9159d82695e654d05d095586f82e990755f8503b"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/D_WC_receiver_high.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "e5e982d0344ab46f9b058e9faad98b23d08e9e08abb9300d1faeae1c7b8bfb1d"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/HQ_WC_receiver_high.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "4601c2aad9a77fff1aae69a49fbf5686363893015d7f6f0d80362ca82a57f258"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_500m_R.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "34483bef557cf45aa915c472d383615375b90dd964ca636f645abedad014fc09"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_500m_Re.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "574f5992c00ac1124f907f6b6e4ae6116d0e5bce718ae49da950aeecf600fa45"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_500m_A.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "ea1c0bf8c76cb2db1dfbad10fdb013273bcecd6afe994c410cc1e8ad50baa515"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_500m_ER_geometric.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "ed5a29c1109e412179e4e482252f9a5e39e4c790621974f53f74e0e5668a740f"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_500m_ER_arithmetic.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "5518c918ed75feff2d58346da4eca6e94346f0fcb5440ae25c1a71c1533a01d1"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_1000m_R.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "54c7874106e74e8fc0af765ca363b5204d985c07c0c66f5f186b43917566483d"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_1000m_Re.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "0a989cc453c55cc9aecd52b842b9a467c82c0c28e26a8b48d5979a9b68bd3ec3"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_1000m_A.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "683cf566d86c200e080ada6040821e217e016c2438de3d291306e05480c57b7a"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_1000m_ER_geometric.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "4de8b4638527126f550c6694b0f1a87c4c5bd6fc30122f2eac4755c23b727e96"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_1000m_ER_arithmetic.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "5a6c2acad7daf7de6fd1e10e7dd61adc64dcdd75905055e872ca63e33475158d"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_2000m_R.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "2e08077b9466a9210121668fc46001b08189291a68ce4524efe7ed76556d1582"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_2000m_Re.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "2d168f9d2f90fcdb248fae8f2c9e955c67e10d80fb24ca22ab6ffbbd3449b72c"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_2000m_A.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "315a40ccdbec5678d2601cd40e1c9177ed391cf1c00d42768a7cd422fe51adc3"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_2000m_ER_geometric.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "1915439d7fd9c65cbd8a66e381c08e16065bed09a543d38c740286fd25950f46"
+    },
+    {
+      "file": "outputs/full_recomputed/rasters/CLCD_mid_2000m_ER_arithmetic.tif",
+      "same_values_mask_shape_transform_crs_as_archive": true,
+      "value_array_sha256": "03305af57a8a02a481c9253d1ea13b1a594a153c8ac29a760564dbde1b7c2b4d"
+    }
+  ],
+  "recomputed_k": 0.39925000071525574,
+  "recomputed_Dmax": 0.7985000014305115,
+  "CRITIC_weights": {
+    "R": 0.11855774364073592,
+    "Re": 0.16473165513932045,
+    "A": 0.7167106012199436
+  },
+  "all_input_files_unchanged": true,
+  "basis": "Prepared rasters -> six HQ/D scenarios -> full-square R/Re/A and 4-neighbour alternative -> arithmetic/geometric/CRITIC -> exact-area town/quadrant statistics. Historical outputs used only for verification.",
+  "not_claimed": [
+    "Reacquisition or complete preprocessing of original remote-sensing products",
+    "Independent ecological-process validation",
+    "Byte-identical GIS/Office/PDF/PNG figure files",
+    "Public redistribution permission for all bundled data"
+  ],
+  "calculation_output_directory": "outputs/full_recomputed"
+}
